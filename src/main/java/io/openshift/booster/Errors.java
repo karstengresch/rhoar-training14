@@ -8,6 +8,7 @@ import io.vertx.rxjava.ext.web.RoutingContext;
  */
 public class Errors {
 
+  // Just for testing
   public static void error(RoutingContext ctx, int status, String cause) {
     JsonObject error = new JsonObject()
       .put("error", cause)
